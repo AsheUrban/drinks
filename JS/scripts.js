@@ -3,5 +3,9 @@ $(document).ready(function() {
 
   if (age >= 21) {
     $('#drinks').show();
+  } 
+  else {
+    $('#under-21').show();
   }
+
 });
